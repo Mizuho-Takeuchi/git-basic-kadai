@@ -1,2 +1,26 @@
+PS C:\Users\wendy\OneDrive\ドキュメント\git-challenge> git add hello_world.txt                  
+PS C:\Users\wendy\OneDrive\ドキュメント\git-challenge> git commit -m "hello_world.txtを追加"    
+[main e803318] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+PS C:\Users\wendy\OneDrive\ドキュメント\git-challenge> git push -u origin main
+Enter passphrase for key '/c/Users/wendy/.ssh/id_rsa':
+Enumerating objects: 5, done.
+Writing objects: 100% (3/3), 297 bytes | 12.00 KTotal 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:Mizuho-Takeuchi/git-basic-kadai.gi   787fae8..e803318  main -> main
+branch 'main' set up to track 'origin/main'.    
+PS C:\Users\wendy\OneDrive\ドキュメント\git-challenge> git add hello_world.txt
+PS C:\Users\wendy\OneDrive\ドキュメント\git-challenge> git commit -m "日本語訳を追記"
+[main 3d9c26f] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-) 
+PS C:\Users\wendy\OneDrive\ドキュメント\git-challenge> git push -u origin main
+Enter passphrase for key '/c/Users/wendy/.ssh/id_rsa':
+Enumerating objects: 5, done.
+Writing objects: 100% (3/3), 333 bytes | 30.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:Mizuho-Takeuchi/git-basic-kadai.git
+   e803318..3d9c26f  main -> main
+branch 'main' set up to track 'origin/main'.    
+ 1 file changed, 0 insertions(+), 0 deletions(-)lenge> git log --oneline
 3d9c26f (HEAD -> main, origin/main) 日本語訳を追記
 e803318 hello_world.txtを追加
+787fae8 hello_world.txtを作成
