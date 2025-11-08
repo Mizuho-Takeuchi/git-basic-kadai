@@ -1,0 +1,2 @@
+3d9c26f (HEAD -> main, origin/main) 日本語訳を追記
+e803318 hello_world.txtを追加
